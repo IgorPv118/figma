@@ -2,105 +2,103 @@
     font-family: Archangelsk;
     src: url('../fonts/Archangelsk.ttf');
 }
-
-.wrapper{
-    width: 300px;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
+.wrapper {
+  width: 300px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 
-.header-wrapper{
-    width: 1360px; 
-    height: 67px;
-    display: flex;
-    justify-content: space-between;
+.title-logo {
+  height: 67px;
 }
 
-.title-logo{
-    width: 295px;
-    height: 73px; 
+.home-wrapper {
+  background: url("../images/home-images/cyber_punk.png") no-repeat;
 }
 
-.home-wrapper{
-    width: 100%;
-    height: 100vh;
-    background: url("../images/home-images/cyber_punk.png") no-repeat;
-    position: relative;
+.link-icon-wrapper {
+  width: 30px;
+  height: 30px;
+}
+  
+.header-wrapper {
+  height: 67px;
+}
+  
+.header-wrapper__title-logo {
+  width: 295px;
+  height: 67px;
+}
+  
+.main-header {
+  width: 100%;
+  height: 950px;
+  display: flex;
+  justify-content: center;
+}
+  
+.aside-wrapper-home {
+  width: 1360px;
+  height: 385px;
+  display: flex;
+  align-items: end;
+  justify-content: right;
+  position: relative;
+  top: 417px;
+}
+  
+.square {
+  width: 600px;
+  height: 370px;
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  align-items: center;
+  margin-left: 70px;
+  background: #f8f200;
+  clip-path: polygon(10% 1%, 100% 0, 100% 17%, 100% 85%, 90% 100%, 0 100%, 0% 80%, 0 15%);
+}
+  
+.div-elem {
+  width: 100%;
+  height: 300px;
+  border: 1px solid #000;
+}
+  
+.wrapper-social {
+  height: 150px;
+  display: flex;
+  justify-content: space-between;
+}
+  
+.square-title {
+  width: 455px;
+  height: 205px;
+  display: flex;
+  align-items: center;
+  margin: 15px;
+  font-family: Archangelsk;
+  font-size: 62px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+  
+.square-btn {
+  width: 270px;
+  height: 80px;
+  background: #000;
+  color: #f8f200;
+  text-align: center;
+  font-family: Roboto;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 40px;
 }
 
-.link-icon-wrapper{
-    width: 30px;
-    height: 30px;
-}
-
-.header-wrapper__wrapper{
-    display: flex;
-    height: 67px;
-}
-
-.header-wrapper__title-logo{
-    width: 67px;
-    height: 67px;
-}
-
-.main-header{
-    width: 100%;
-    display: flex;
-    justify-content: center;
-}
-
-.aside-wrapper-home{
-    width: 625px;
-    height: 370px;
-    position: absolute;
-    bottom: 0;
-    left: 976px;
-    display: flex;
-    clip-path: polygon(10% 1%, 100% 0, 100% 17%, 100% 85%, 90% 100%, 0 100%, 0% 80%, 0 15%);
-    flex-shrink: 0;
-    background-color: #F8F200;
-}
-
-.square{
-    width: 484px;
-    height: 126px;
-    margin: 70px 70px 173px 70px;
-    display: flex;
-    flex-direction: column;
-    flex-shrink: 0;
-}
-
-.text{
-    width: 484px;
-    height: 126px;
-    color: #000;
-    font-size: 62px;
-    font-family: Archangelsk;
-    position: absolute;
-    text-align: left;
-    bottom: 100px;
-}
-
-.wrapper-info{
-    border: 1px solid #000;
-    position: absolute;
-    margin: 240px 200px 89px 70px;
-    background: #000;
-}
-
-.info{
-    width: 172px;
-    height: 40px;
-    text-align: center;
-    font-size: 24px;
-    font-family: Roboto;
-    font-weight: 700;
-    line-height: 40px;
-    margin: 19px 50px 19px 50px;
-}
-
-.info a{
-    text-decoration: none;
-    color: #F8F200;
+.square-text-position{
+  position: relative;
+  top: 15px;
 }
